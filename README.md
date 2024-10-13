@@ -20,10 +20,10 @@ frontend:
       - .npm/**/*
 
 # Environment Variables (.env):
-in GitHub from: Repo > setting > Secrets and variables > Actions > Actions secrets and variables
-in AWS Amplify from: All apps > select-shop-website > Manage environment variables => Environment Variables
-in AWS ECS (Elastic Container Service) from: Amazon Elastic Container Service > Task definitions > projectname-backend-td > Revision 61 > Create revision => search for Container-1 then Environment variables 
-in AWS ECR (Elastic Container Registry from: Amazon ECR > Private registry > Repositories > backend
+1. in GitHub from: Repo > setting > Secrets and variables > Actions > Actions secrets and variables.
+2. in AWS Amplify from: All apps > select-shop-website > Manage environment variables => Environment Variables
+3. in AWS ECS (Elastic Container Service) from: Amazon Elastic Container Service > Task definitions > projectname-backend-td > Revision 61 > Create revision => search for Container-1 then Environment variables 
+4. in AWS ECR (Elastic Container Registry from: Amazon ECR > Private registry > Repositories > backend
 
 # Key Insights in each Workflow:
 1. ECR (Elastic Container Registry): Your application’s Docker image is built and pushed to ECR.
